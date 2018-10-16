@@ -1,0 +1,143 @@
+body{
+    background-color:white;
+    align-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+ul {
+    border-radius: 4px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+    float: left;
+    width: 100%;
+}
+.carType{
+    border: 1px solid indianred;
+    margin: 8%;
+    padding: 15px;
+    border-radius: 4px;
+
+}
+.carType img{
+    height: 70%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    overflow: hidden;
+}
+.carType button{
+    position: relative;
+    border-radius: 4px;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+    background-color: red;
+    border: none;
+    color: #FFFFFF;
+    font-size: 160%;
+    padding: 1vw;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+.carType button:hover{
+    background-color: darkred;
+}
+.carType h1{
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    transition: all 0.5s;
+    float: left;
+    font-size: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;   
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li a:hover {
+    background-color: darkred;
+}
+.button {
+    float: right;
+    border-radius: 4px;
+    background-color: red;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 100%;
+    height: 55px;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+.button:hover{
+    background-color: darkred;
+
+}
+.missing{
+    margin-left: auto;
+    margin-right: auto;
+    height: 75%;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 100%;
+}
+.siteText{
+    margin: 8%;
+    border: 1px solid indianred;
+    padding: 15px;
+}
+
+.siteText h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+}
+
+.siteText p {
+    text-indent: 50px;
+    text-align: left;
+    letter-spacing: 3px;
+}
+
+.siteText img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    width: 100%;
+}
+.buy{
+    margin-top: 8px;
+    margin-left: 43%;
+    margin-right: 43%;
+    border-radius: 4px;
+    background-color: red;
+    border: none;
+    color: #FFFFFF;
+    font-size: 160%;
+    padding: 20px;
+    width: 12%;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+.buy:hover{
+    background-color: darkred;
+
+}
