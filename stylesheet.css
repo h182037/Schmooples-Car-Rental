@@ -11,39 +11,33 @@ ul {
     overflow: hidden;
     background-color: red;
 }
+
+.car-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .carType{
     border: 1px solid indianred;
-    margin: 8%;
-    padding: 15px;
     border-radius: 4px;
-
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
 }
-.carType img{
-    height: 70%;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+.carType img {
+    width: 600px;
 }
-.navbar{
-    overflow: hidden;
-}
-.carType button{
-    position: relative;
+.carType a {
     border-radius: 4px;
-    bottom: 0;
-    right: 0;
-    margin: 15px;
     background-color: red;
     border: none;
     color: #FFFFFF;
-    font-size: 160%;
-    padding: 1vw;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-    cursor: pointer;
-  }
-.carType button:hover{
+    font-size: 48px;
+    text-decoration: none;
+}
+.carType a:hover{
     background-color: darkred;
 }
 .carType h1{
@@ -51,12 +45,6 @@ ul {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: red;
 }
-
-li {
-    float: left;
-    
-}
-
 li a {
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
