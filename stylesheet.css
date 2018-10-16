@@ -18,7 +18,7 @@ ul {
 .carType{
     border: 1px solid indianred;
     border-radius: 4px;
-    width: 400px;
+    width: 460px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -26,7 +26,7 @@ ul {
     margin: 30px 20px;
 }
 .carType img {
-    width: 600px;
+    width: 100%;
 }
 .carType a {
     border-radius: 4px;
