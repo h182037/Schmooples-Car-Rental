@@ -1,25 +1,14 @@
+
 body{
     background-color:white;
     align-content: center;
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-h1{
-    padding: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: red;
 }
 
 ul {
     border-radius: 4px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: red;
-    float: left;
-    width: 100%;
 }
 .carType{
     border: 1px solid indianred;
@@ -61,19 +50,15 @@ ul {
 }
 
 li {
-    float: left ;
+    float: left;
     
 }
 
 li a {
     transition: all 0.5s;
-    float: right;
-    font-size: 100%;
+    font-size: 36px;
     color: white;
-    text-align: center;
-    padding: 20px 25px;   
-    text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial;
 }
 
 li a:hover {
@@ -108,7 +93,6 @@ li a:hover {
     margin: 8%;
     border: 1px solid indianred;
     padding: 15px;
-    border-radius: 4px;
 }
 
 .siteText h1 {
@@ -148,3 +132,29 @@ li a:hover {
     background-color: darkred;
 
 }
+
+/* Nav Bar */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+
+}
+.schlogo {
+    display: block;
+    margin: auto;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding-left:0;
+    }
+    .container > li {
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
