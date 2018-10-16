@@ -1,15 +1,13 @@
 
 body{
-    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large; 
     -ms-flex-line-pack: center;
-        align-content: center;
+    align-content: center;
 }
 
 ul {
-    border-radius: 4px;
     list-style-type: none;
-    overflow: hidden;
-    background-color: red;
 }
 .carType{
     border: 1px solid indianred;
@@ -24,9 +22,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
-.navbar{
-    overflow: hidden;
-}
+
 .carType button{
     position: relative;
     border-radius: 4px;
@@ -54,20 +50,27 @@ ul {
 
 li {
     float: left;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+
     
 }
-
 li a {
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
     font-size: 36px;
-    color: white;
+    color: red;
+    text-decoration: white;
     font-family: Arial;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 li a:hover {
-    background-color: darkred;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 .button {
     float: right;
