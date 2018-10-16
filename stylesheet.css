@@ -5,6 +5,12 @@ body{
     padding-right: 15%;
 }
 
+h1{
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+}
+
 ul {
     border-radius: 4px;
     list-style-type: none;
@@ -61,7 +67,7 @@ li {
 
 li a {
     transition: all 0.5s;
-    float: left;
+    float: right;
     font-size: 100%;
     color: white;
     text-align: center;
@@ -102,6 +108,7 @@ li a:hover {
     margin: 8%;
     border: 1px solid indianred;
     padding: 15px;
+    border-radius: 4px;
 }
 
 .siteText h1 {
