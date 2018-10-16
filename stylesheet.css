@@ -18,11 +18,12 @@ ul {
 .carType{
     border: 1px solid indianred;
     border-radius: 4px;
-    width: 600px;
+    width: 400px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    justify-content: center;
+    margin: 30px 20px;
 }
 .carType img {
     width: 600px;
@@ -51,16 +52,16 @@ li {
 
     
 }
-li a {
+a {
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
     font-size: 36px;
-    color: red;
     text-decoration: white;
     font-family: Arial;
     margin-left: 8px;
     margin-right: 8px;
+    color:red;
 }
 
 li a:hover {
@@ -68,21 +69,13 @@ li a:hover {
     margin-right: 20px;
 
 }
-.button {
-    float: right;
-    border-radius: 4px;
-    background-color: red;
+button {
+    background: red;
+    color: white;
     border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 100%;
-    height: 55px;
-    width: auto;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-    cursor: pointer;
-  }
+    border-radius: 4px;
+}
+
 .button:hover{
     background-color: darkred;
 
@@ -96,9 +89,14 @@ li a:hover {
     border-radius: 100%;
 }
 .siteText{
-    margin: 8%;
+    display: flex;
+    flex-direction: column;
+    margin: 5% 15%;
     border: 1px solid indianred;
     padding: 15px;
+}
+.siteText button {
+    margin-top:20px;
 }
 
 .siteText h1 {
@@ -108,17 +106,27 @@ li a:hover {
 }
 
 .siteText p {
-    text-indent: 50px;
-    text-align: left;
+    padding: 20px 17%;
+    text-align: center;
     letter-spacing: 3px;
+    font-size: 22px;
 }
 
 .siteText img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60%;
-    width: 100%;
+    width: 700px;
+    margin: auto;
+}
+
+.siteText a {
+    color:white;
+}
+.order {
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
 }
 .buy{
     margin-top: 8px;
@@ -149,7 +157,7 @@ li a:hover {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    margin: 20px 20px;
+    margin: 30px 20px;
 
 }
 .schlogo {
@@ -175,6 +183,15 @@ li a:hover {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
+    }
+
+    .siteText {
+        padding: 15px;
+        margin:0;
+        border: none;
+    }
+    .siteText p {
+        padding: 20px 5%;
     }
 }
 
